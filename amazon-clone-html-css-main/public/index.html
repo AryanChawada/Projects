@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Clone | Aryan Chawada</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <nav class="bg-[#0F1111] h-16 flex justify-evenly items-center text-white text-sm">
+            <a href="#" class="border border-transparent p-1 hover:border-white">
+                <img src="assets/amazon_logo.png" alt="" class="w-24 h-10 mt-2"/>
+            </a>
+
+            <div class="border border-transparent p-1 hover:border-white">
+                <p class="text-xs pl-3">Deliver to</p>
+                <div class="flex items-center gap-1">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p class="font-bold">India</p>
+                </div>
+            </div>
+
+            <div class="text-black flex h-12 p-1">
+                <select class="bg-[#E6E6E6] px-2 rounded-lg rounded-r-none">
+                    <option>All</option>
+                </select>
+                <input type="text" placeholder="Search Amazon" class="w-[780px] pl-2 text-base"/>
+                <div class="bg-orange-300 rounded-lg rounded-l-none p-2">
+                    <i class="fa-solid fa-magnifying-glass fa-xl"></i>
+                </div>
+            </div>
+
+            <div class="flex border border-transparent p-1 hover:border-white">
+                <img src="assets/USFlag.png" class="h-4 w-5"/>
+                <select class="bg-transparent font-bold">
+                    <option>EN</option>
+                </select>
+            </div>
+
+            <div class="border border-transparent p-1 hover:border-white">
+                <p class="text-xs pl-1">Hello, sign in</p>
+                <select class="bg-transparent font-bold">
+                    <option>Accounts & Lists</option>
+                </select>
+            </div>
+
+            <div class="border border-transparent p-1 hover:border-white">
+                <p class="text-xs">Returns</p>
+                <p class="font-bold">& Orders</p>
+            </div>
+
+            <div class="flex items-center border border-transparent p-1 hover:border-white">
+                <i class="fa-solid fa-cart-shopping fa-2xl"></i>
+                <p class="font-bold pt-2">Cart</p>
+            </div>
+
+        </nav>
+
+        <div class="bg-[#222F3D] h-10 flex items-center text-white text-sm pl-4">
+            <div class="flex items-center gap-1 border border-transparent p-2 hover:border-white">
+                <i class="fa-solid fa-bars fa-lg"></i>
+                <p class="font-bold">All</p>
+            </div>
+
+            <ul class="flex items-center">
+                <li class="border border-transparent p-2 hover:border-white">Today's Deals</li>
+                <li class="border border-transparent p-2 hover:border-white">Customer Service</li>
+                <li class="border border-transparent p-2 hover:border-white">Registry</li>
+                <li class="border border-transparent p-2 hover:border-white">Gift Cards</li>
+                <li class="border border-transparent p-2 hover:border-white">Sell</li>
+            </ul>
+        </div>
+
+    </header>
+
+    <main class="bg-[#E6E6E6] pb-5">
+        <div class="bg-[url('./assets/banner.jpg')] bg-cover h-80 flex justify-center items-end">
+            <div class="bg-white text-sm h-10 flex justify-center items-center w-[1460px] mb-6">
+                <p>You are on amazon.com. You can also shop on Amazon India for millions of products with fast local delivery. 
+                <a class="text-[#007185] hover:underline hover:text-orange-500">Click here to go to amazon.in</a></p>
+            </div>
+
+        </div>
+
+        <div class="grid grid-cols-4 grid-rows-2 gap-4 px-4">
+            <div class="bg-white p-4">
+                <h2 class="text-xl font-bold">Shop school essentials</h2>
+                <img src="./assets/1.jpg" alt="" class="my-3"/>
+                <p class="text-[#007185] text-xs">See more</p>
+            </div>
+            <div class="bg-white p-4">
+                <h2 class="text-xl font-bold">Home & Kitchen Under $30</h2>
+                <img src="assets/2.jpg" alt="" class="my-3"/>
+                <a href="#" class="text-xs text-[#007185]">Shop now</a>
+            </div>
+            <div class="bg-white p-4">
+                <h2 class="text-xl font-bold">Health & Personal Care</h2>
+                <img src="assets/3.jpg" alt="" class="my-3"/>
+                <a href="#" class="text-xs text-[#007185]">Shop now</a>
+            </div>
+            <div class="bg-white p-4">
+                <h2 class="text-xl font-bold">Beauty picks</h2>
+                <img src="assets/4.jpg" alt="" class="my-3"/>
+                <a href="#" class="text-xs text-[#007185]">Shop now</a>
+            </div>
+            <div class="bg-white p-4">
+                <h2 class="text-xl font-bold">Electronics</h2>
+                <img src="assets/5.jpg" alt="" class="my-3"/>
+                <a href="#" class="text-xs text-[#007185]">See more</a>
+            </div>
+            <div class="bg-white p-4">
+                <h2 class="text-xl font-bold">Toys Under $30</h2>
+                <img src="assets/6.jpg" alt="" class="my-3"/>
+                <a href="#" class="text-xs text-[#007185]">Shop now</a>
+            </div>
+            <div class="bg-white p-4">
+                <h2 class="text-xl font-bold">For your Fitness Needs</h2>
+                <img src="assets/7.jpg" alt="" class="my-3"/>
+                <a href="#" class="text-xs text-[#007185]">Shop now</a>
+            </div>
+            <div class="bg-white p-4">
+                <h2 class="text-xl font-bold">Discover fashion trends</h2>
+                <img src="assets/8.jpg" alt="" class="my-3"/>
+                <a href="#" class="text-xs text-[#007185]">See more</a>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="bg-[#37475A] h-12 flex justify-center items-center text-white text-sm">
+            <p>Back to top</p>
+        </div>
+
+        <div class="bg-[#232F3E] h-[340px] text-[#DDDDDD] text-sm flex justify-evenly py-10">
+            <ul class="space-y-2.5">
+                <li class="font-bold text-base text-white">Get to Know Us</li>
+                <li>Careers</li>
+                <li>Blog</li>
+                <li>About Amazon</li>
+                <li>Investor Relations</li>
+                <li>Amazon Devices</li>
+                <li>Amazon Science</li>
+            </ul>
+            <ul class="space-y-2.5">
+                <li class="text-base font-bold text-white">Make Money with Us</li>
+                <li>Sell products on Amazon</li>
+                <li>Sell on Amazon Business</li>
+                <li>Sell apps on Amazon</li>
+                <li>Become an Affiliate</li>
+                <li>Advertise Your Products</li>
+                <li>Self-Publish with Us</li>
+                <li>Host an Amazon Hub</li>
+                <li>See More Make Money with Us</li>
+            </ul>
+
+            <ul class="space-y-2.5">
+                <li class="text-base font-bold text-white">Amazon Payment Products</li>
+                <li>Amazon Business Card</li>
+                <li>Shop with Points</li>
+                <li>Reload Your Balance</li>
+                <li>Amazon Currency Converter</li>
+            </ul>
+
+            <ul class="space-y-2.5">
+                <li class="text-base font-bold text-white">Let Us Help You</li>
+                <li>Amazon and COVID-19</li>
+                <li>Your Account</li>
+                <li>Your Orders</li>
+                <li>Shipping Rates & Policies</li>
+                <li>Returns & Replacements</li>
+                <li>Manage Your Content and Devices</li>
+                <li>Amazon Assistant</li>
+                <li>Help</li>
+            </ul>
+        </div>
+
+    </footer>
+
+</body>
+</html>
